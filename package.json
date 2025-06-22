@@ -1,0 +1,23 @@
+{
+  "name": "mongodb_learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ntanganedzeni02/MongoDB_Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ntanganedzeni02/MongoDB_Learning/issues"
+  },
+  "homepage": "https://github.com/Ntanganedzeni02/MongoDB_Learning#readme",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.17.0"
+  }
+}
