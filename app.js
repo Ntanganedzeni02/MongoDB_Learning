@@ -29,6 +29,9 @@ const sampleAccount = {
     last_updated: new Date(),
 };
 
+
+const documentToFind = { balance: { $gt: 500 } };
+
 const main = async () => {
     try {
         await client.connect();
