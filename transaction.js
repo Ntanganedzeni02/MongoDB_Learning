@@ -3,7 +3,7 @@ const {MongoClient, ObjectId} = require("mongodb");
 
 require("dotenv").config();
 
-const uri = process.env.MONGODB_URI || "mongodb+srv://<username>:<password>@cluster.mongodb.net/test?retryWrites=true&w=majority";
+const uri = process.env.ATLAS_URI;
 const client = new MongoClient(uri);
 
 // Database and collection names
